@@ -1,0 +1,35 @@
+              aobaker ... ambient occlusion baking tool                                           
+          blog-source ... my old graphics blog                                                    
+               clumpy ... generate and transform numpy images from the command line               
+                d3cpp ... sweep and prune demo                                                    
+           distortion ... Fisheye Distortion in OpenGL                                            
+              flatbin ... Tiny JavaScript utility for parsing simple binary files.                
+             fluidsim ... GPU fluid simulation                                                    
+                 giza ... low-level utility layer for WebGL                                       
+                heman ... C99 heightmap utilities.                                                
+         heman-python ... work  in progress                                                       
+iphone-3d-programming ... sample code from my O'Reilly book                                       
+             kallmann ... triangulation and path planning module                                  
+            knot-data ... Data for Mathematical Knots                                             
+               knotgl ... Mathematical Knots in WebGL                                             
+                 lava ... tiny C++ Vulkan library: smarter than a wrapper, dumber than an engine. 
+           list-repos ... nim script for listing github repositories                              
+  modern-opengl-prezo ... HTML Slideshow on Modern OpenGL                                         
+             monarchy ... demonstrates high-performance 2D graphics with giza                     
+      opengl-insights ... source code for "An Introduction to Tessellation Shaders"               
+                  par ... single-file C libraries from Philip Allan Rideout                       
+                 parg ... tiny C library of various graphics utilities and GL demos               
+                 parm ... minimal macOS Metal application                                         
+                  pez ... teeny tiny platform layer for simple OpenGL demos                       
+           polygon.js ... tessellation of concave polygons with holes in Javascript               
+  prideout.github.com ... my current graphics blog                                                
+             quadmesh ... Animated quad meshes and smooth normal computation with Modern OpenGL.  
+          reba-island ... generate simple island shapes                                           
+              recipes ... collection of tiny OpenGL demos                                         
+           ribarchive ... random renderman stuff                                                  
+                  rwt ... Recursive Wang tiles dataset for blue noise                             
+              sfpaths ... Download and visualize Strava paths with D3 and Google Maps.            
+                 skia ... fork of skia that is CMake-buildable                                    
+            sympy-fun ... use SymPy to generate equations for parametric surfaces                 
+
+archived: book-webgl coregl-python effects-salad gorman govmath lsystem reba tol 
