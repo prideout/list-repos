@@ -6,7 +6,9 @@ import strformat
 import net
 
 # TODO: VS Code nim extension should support -d:ssl
-# TODO: Private repos are being listed, even with a proper curl command.
+
+# TODO: Private repos are not present in the JSON, even with a properly authenticated curl command.
+#       This appears to be a GitHub issue.
 
 const url = "https://api.github.com/users/prideout/repos?per_page=1000"
 
