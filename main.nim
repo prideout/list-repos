@@ -3,17 +3,18 @@
 import httpclient
 import json
 import strformat
-import net
 
 # TODO: VS Code nim extension should support -d:ssl
 
-# TODO: Private repos are not present in the JSON, even with a properly authenticated curl command.
-#       This appears to be a GitHub issue.
+const url = "https://api.github.com/user/repos?per_page=100"
 
-const url = "https://api.github.com/users/prideout/repos?per_page=1000"
+let client = newHttpClient()
 
-let ctx = net.newContext()
-let client = newHttpClient(sslContext = ctx)
+# encodedAuth = b64encode("username:password").decode("ascii")
+# client.headers = newHttpHeaders({
+#     "Authorization": "Basic {encodedAuth}"
+# })
+
 let responseString = client.getContent(url)
 let dbJson = parseJson(responseString)
 
@@ -23,6 +24,15 @@ for repo in dbJson:
     let private = repo["private"].getBool()
     let archived = repo["archived"].getBool()
     if not archived and not private:    
+        echo fmt"{name:>21} ... {desc:<72}"
+
+echo "\nprivate: "
+for repo in dbJson:
+    var (name, desc) = (repo["name"].str, repo["description"].str)
+    if desc == nil: desc = "NO DESCRIPTION"
+    let private = repo["private"].getBool()
+    let archived = repo["archived"].getBool()
+    if not archived and private:
         echo fmt"{name:>21} ... {desc:<72}"
 
 write(stdout, "\narchived: ")
