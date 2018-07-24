@@ -13,7 +13,7 @@ iphone-3d-programming ... sample code from my O'Reilly book
             knot-data ... Data for Mathematical Knots                                             
                knotgl ... Mathematical Knots in WebGL                                             
                  lava ... tiny C++ Vulkan library: smarter than a wrapper, dumber than an engine. 
-           list-repos ... nim script for listing github repositories                              
+           list-repos ... nim program for listing github repositories                             
   modern-opengl-prezo ... HTML Slideshow on Modern OpenGL                                         
              monarchy ... demonstrates high-performance 2D graphics with giza                     
       opengl-insights ... source code for "An Introduction to Tessellation Shaders"               
