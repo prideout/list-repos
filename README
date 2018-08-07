@@ -7,7 +7,6 @@
              fluidsim ... GPU fluid simulation                                                    
                  giza ... low-level utility layer for WebGL                                       
                 heman ... C99 heightmap utilities.                                                
-         heman-python ... work  in progress                                                       
 iphone-3d-programming ... sample code from my O'Reilly book                                       
              kallmann ... triangulation and path planning module                                  
             knot-data ... Data for Mathematical Knots                                             
@@ -16,6 +15,7 @@ iphone-3d-programming ... sample code from my O'Reilly book
            list-repos ... nim program for listing github repositories                             
   modern-opengl-prezo ... HTML Slideshow on Modern OpenGL                                         
              monarchy ... demonstrates high-performance 2D graphics with giza                     
+                 nile ... fractal terrain generator in Nim                                        
       opengl-insights ... source code for "An Introduction to Tessellation Shaders"               
                   par ... single-file C libraries from Philip Allan Rideout                       
                  parg ... tiny C library of various graphics utilities and GL demos               
@@ -24,7 +24,6 @@ iphone-3d-programming ... sample code from my O'Reilly book
            polygon.js ... tessellation of concave polygons with holes in Javascript               
   prideout.github.com ... my current graphics blog                                                
              quadmesh ... Animated quad meshes and smooth normal computation with Modern OpenGL.  
-          reba-island ... generate simple island shapes                                           
               recipes ... collection of tiny OpenGL demos                                         
            ribarchive ... random renderman stuff                                                  
                   rwt ... Recursive Wang tiles dataset for blue noise                             
@@ -32,4 +31,4 @@ iphone-3d-programming ... sample code from my O'Reilly book
                  skia ... fork of skia that is CMake-buildable                                    
             sympy-fun ... use SymPy to generate equations for parametric surfaces                 
 
-archived: book-webgl coregl-python effects-salad gorman govmath lsystem reba tol 
+archived: book-webgl coregl-python effects-salad gorman govmath heman-python lsystem reba reba-island tol 

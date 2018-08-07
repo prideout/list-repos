@@ -27,7 +27,8 @@ for repo in dbJson:
     if desc == nil: desc = "NO DESCRIPTION"
     let private = repo["private"].getBool()
     let archived = repo["archived"].getBool()
-    if not archived and not private:    
+    let fork = repo["fork"].getBool()
+    if not archived and not private and not fork:
         echo fmt"{name:>21} ... {desc:<72}"
 
 when showPrivate:
