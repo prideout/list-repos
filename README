@@ -1,8 +1,9 @@
               aobaker ... ambient occlusion baking tool                                           
           blog-source ... my old graphics blog                                                    
-               clumpy ... generate and transform numpy images from the command line               
+               clumpy ... create or transform numpy images from the command line                  
                 d3cpp ... sweep and prune demo                                                    
            distortion ... Fisheye Distortion in OpenGL                                            
+              filaweb ... demo server for Filament                                                
               flatbin ... Tiny JavaScript utility for parsing simple binary files.                
              fluidsim ... GPU fluid simulation                                                    
                  giza ... low-level utility layer for WebGL                                       
@@ -11,7 +12,7 @@ iphone-3d-programming ... sample code from my O'Reilly book
              kallmann ... triangulation and path planning module                                  
             knot-data ... Data for Mathematical Knots                                             
                knotgl ... Mathematical Knots in WebGL                                             
-                 lava ... tiny C++ Vulkan library: smarter than a wrapper, dumber than an engine. 
+                 lava ... toy C++ Vulkan library                                                  
            list-repos ... nim program for listing github repositories                             
   modern-opengl-prezo ... HTML Slideshow on Modern OpenGL                                         
              monarchy ... demonstrates high-performance 2D graphics with giza                     
@@ -29,6 +30,7 @@ iphone-3d-programming ... sample code from my O'Reilly book
                   rwt ... Recursive Wang tiles dataset for blue noise                             
               sfpaths ... Download and visualize Strava paths with D3 and Google Maps.            
                  skia ... fork of skia that is CMake-buildable                                    
+                snowy ...  Small Image Library for Python 3                                       
             sympy-fun ... use SymPy to generate equations for parametric surfaces                 
 
 archived: book-webgl coregl-python effects-salad gorman govmath heman-python lsystem reba reba-island tol 
